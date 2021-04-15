@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite]">
+  <test thread-count="5" name="randomTest(failed)">
+    <groups>
+      <run>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.test.SeleniumCode">
+        <methods>
+          <include name="testMethod"/>
+        </methods>
+      </class> <!-- com.test.SeleniumCode -->
+    </classes>
+  </test> <!-- randomTest(failed) -->
+</suite> <!-- Failed suite [suite] -->

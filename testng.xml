@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "suite">
+    <test thread-count="0" name = "randomTest">
+        <parameter name ="browser" value ="chrome"/>
+        <parameter name ="username" value ="anyUserName"/>
+        <parameter name ="password" value ="anyPassword"/>
+        <groups>
+            <run>
+                <include name = "smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name = "com.test.SeleniumCode">
+                <methods>
+                   <!-- <include></include>
+                    <exclude></exclude>-->
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+</suite>
